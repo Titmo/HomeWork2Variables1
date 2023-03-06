@@ -70,11 +70,29 @@ public class Main {
     }
     public static void task6 () {
         System.out.println("Задача 6");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var totalWeight = firstBoxer+secondBoxer;
+        System.out.println("Общий вес двух бойцов: " +totalWeight);
+        var weightDifference =secondBoxer-firstBoxer;
+        System.out.println("Разница между весами бойцов: " + weightDifference);
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        System.out.println("Разницу весов спортсменов способом вычитания из большего веса меньшего: " + (secondBoxer - firstBoxer));
+        System.out.println("Разницу весов спортсменов c помощь функции остаток от деления: " + (secondBoxer % firstBoxer) );
+
+
     }
     public static void task8 () {
         System.out.println("Задача 8");
+        var totalHour = 640;
+        var employees =totalHour/8;
+        System.out.println("Всего работников в компании — "+employees+" человек");
+        employees+=94;
+        totalHour= employees*8;
+        System.out.println("Если в компании работает "+employees+ " человек, то всего "+totalHour+ " часов работы может быть поделено между сотрудниками");
     }
 }
